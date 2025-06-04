@@ -9,12 +9,13 @@
 
     <form>
         <!-- STUDENT FORM -->
-        <CENTER><h1><U>STUDENT FORM</U></h1></CENTER>
+        
+        <CENTER><h1><u>STUDENT FORM</U></h1></CENTER>
 
-     <label for="name">STUDENT NAME</label><br>
+     <label for="name"><u>STUDENT NAME</u></label><br>
      <input type="text" id="name" name="STUDENT NAME" placeholder="add name"><br><br>
      
-     <label for="name">AGE</label><br>
+     <label for="name"><u>AGE</u></label><br>
      <input type="text" id="name" name="AGE" placeholder="add age"><br><br>
     
      <label for="radiobutton"><U>GENDER</U></label><br>
@@ -174,7 +175,18 @@
     <br><br>
 
 
-<label for="radiobutton"><U>RATE US</U></label><br>
+
+    <input type="radio" id="rad" name="radio" >
+     <label for="radiobutton">5</labeL>
+    <br><BR>
+    
+    <label for="radiobutton"><U>WOULD U RECOMMEND US</U></label><br>
+     
+     <input type="radio" id="rad" name="radio" >
+     <label for="radiobutton">YES</label>
+     <label for="radiobutton"><br><br>
+        
+        <U>RATE US</U></label><br>
      
      <input type="radio" id="rad" name="radio" >
      <label for="radiobutton">1</label>
@@ -192,15 +204,6 @@
      <label for="radiobutton">4</labeL>
     
     
-    <input type="radio" id="rad" name="radio" >
-     <label for="radiobutton">5</labeL>
-    <br><BR>
-    
-    <label for="radiobutton"><U>WOULD U RECOMMEND US</U></label><br>
-     
-     <input type="radio" id="rad" name="radio" >
-     <label for="radiobutton">YES</label>
-     
      
      <input type="radio" id="rad" name="radio" >
      <label for="radiobutton">NO</labeL>
@@ -332,7 +335,32 @@
 
  <input type="checkbox" id="chkbox" name="chkbox " >
     <label for="checkbox">yes</label required><br>
+<hr>
 
+<!-- text area -->
+
+<label for="address">ADDRESS</label>
+<textarea name="text" id="text" cols="100" rows="15"></textarea><br><br>
+
+
+<!-- dopdown -->
+
+<label for="cars">CARS</label>
+<select name="dropdown" id="cars">
+<option value="">jaguar</option>
+<option value="">audi</option>
+<option value="">bmw</option>
+</select>
+<br><br><br>
+
+<!-- button -->
+
+<input type="button" value="click">
+<input type="reset" value="reset">
+<input type="submit" value="submit"><br><br>
+</select>
+
+<hr>
 
 
     </form>
